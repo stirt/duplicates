@@ -26,7 +26,7 @@ func CreateDuplicates(n int, maxDups int) []int {
 	return dups
 }
 
-// FindDuplicates finds duplicate occurances of ints in a given intSlice and.
+// FindDuplicates finds duplicate occurences of ints in a given intSlice and.
 // returns those duplicates in a new intSlice. We use maps here as it offers
 // constant time getting and setting, along with the guarantee
 // that duplicates cannot be stored in them(as keys must be unique).
